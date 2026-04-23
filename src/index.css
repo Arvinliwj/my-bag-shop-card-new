@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system;
+  background: #f5efe6;
+}
+
+/* 布局 */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* 卡片 */
+.card {
+  width: 90%;
+  max-width: 320px;
+  padding: 30px 20px;
+  background: #fffaf3;
+  border-radius: 20px;
+  border: 1px solid #e8dcc7;
+  text-align: center;
+}
+
+/* 品牌名 */
+.brand {
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+/* 签文 */
+.sign {
+  font-size: 20px;
+  line-height: 1.8;
+  font-family: "KaiTi", "STKaiti", serif;
+  margin-bottom: 20px;
+}
+
+/* 底部文案 */
+.tip {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* 分享按钮 */
+.share {
+  margin-top: 20px;
+  font-size: 12px;
+  background: none;
+  border: none;
+  text-decoration: underline;
+}
